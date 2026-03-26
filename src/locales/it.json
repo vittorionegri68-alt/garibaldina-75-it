@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "appartamento": "Appartamento",
+    "esperienza": "Cesena",
+    "comeFunziona": "Come Prenotare",
+    "recensioni": "Recensioni",
+    "posizione": "Posizione",
+    "host": "Host",
+    "prenota": "Prenota su Airbnb"
+  },
+  "hero": {
+    "badge": "Cesena Centro",
+    "titolo": "Luminoso e accogliente nel cuore di Cesena",
+    "sottotitolo": "Un appartamento moderno e curato, a pochi passi da negozi, locali e le bellezze storiche della citta. Wifi veloce, cucina completa, self check-in.",
+    "ctaPrimario": "Prenota su Airbnb",
+    "ctaSecondario": "Scopri di piu",
+    "stats": {
+      "ospiti": "Ospiti",
+      "camere": "Camera",
+      "bagni": "Bagno",
+      "rating": "Valutazione"
+    }
+  },
+  "appartamento": {
+    "titolo": "Il Tuo Spazio",
+    "sottotitolo": "Ogni dettaglio pensato per il tuo comfort",
+    "galleriaLabel": "Galleria foto",
+    "dotazioni": "Dotazioni principali",
+    "amenities": [
+      { "icona": "wifi", "testo": "WiFi ad alta velocita" },
+      { "icona": "kitchen", "testo": "Cucina completamente attrezzata" },
+      { "icona": "washer", "testo": "Lavatrice" },
+      { "icona": "ac", "testo": "Aria condizionata" },
+      { "icona": "heating", "testo": "Riscaldamento" },
+      { "icona": "checkin", "testo": "Self check-in con serratura smart" },
+      { "icona": "tv", "testo": "Smart TV" },
+      { "icona": "elevator", "testo": "Ascensore" }
+    ]
+  },
+  "esperienza": {
+    "titolo": "Cesena, tutta da scoprire",
+    "sottotitolo": "Dalla porta di Garibaldina 75, la citta e a portata di mano",
+    "cards": [
+      {
+        "titolo": "Storia e Cultura",
+        "testo": "La Rocca Malatestiana domina la citta. I musei, le chiese e il centro storico medievale sono raggiungibili a piedi in pochi minuti."
+      },
+      {
+        "titolo": "Sapori Romagnoli",
+        "testo": "Piadina, cappelletti, vini dei colli cesenati. Ristoranti e osterie a due passi dall appartamento per vivere la vera cucina di Romagna."
+      },
+      {
+        "titolo": "Posizione Ideale",
+        "testo": "In 30 minuti sei al mare di Cesenatico. In 40 a Rimini. In 35 a San Marino. Un punto di partenza perfetto per esplorare tutta la Romagna."
+      }
+    ]
+  },
+  "comeFunziona": {
+    "titolo": "Prenotare e semplice",
+    "sottotitolo": "Quattro passi e sei a Cesena",
+    "steps": [
+      { "numero": "01", "titolo": "Cerca le date", "testo": "Controlla la disponibilita su Airbnb e scegli le date del tuo soggiorno." },
+      { "numero": "02", "titolo": "Prenota", "testo": "Prenota in pochi clic con pagamento sicuro tramite la piattaforma Airbnb." },
+      { "numero": "03", "titolo": "Ricevi il codice", "testo": "Prima dell arrivo ricevi tutto via messaggio: istruzioni e codice per la serratura smart." },
+      { "numero": "04", "titolo": "Goditi il soggiorno", "testo": "Entra in autonomia, a qualsiasi ora. L appartamento e pronto per te." }
+    ]
+  },
+  "recensioni": {
+    "titolo": "Cosa dicono gli ospiti",
+    "sottotitolo": "Valutazione media",
+    "di": "di",
+    "basataSu": "recensioni su Airbnb"
+  },
+  "posizione": {
+    "titolo": "Dove Siamo",
+    "sottotitolo": "Corso C.B. Cavour 75, Cesena",
+    "descrizione": "Garibaldina 75 si trova nel cuore del centro storico di Cesena, su uno dei corsi principali della citta. Tutto e raggiungibile a piedi: la Rocca Malatestiana, il mercato, i migliori ristoranti e i negozi del centro.",
+    "distanze": [
+      { "luogo": "Rocca Malatestiana", "tempo": "8 min a piedi" },
+      { "luogo": "Stazione FS Cesena", "tempo": "10 min a piedi" },
+      { "luogo": "Cesenatico (mare)", "tempo": "30 min in auto" },
+      { "luogo": "San Marino", "tempo": "35 min in auto" },
+      { "luogo": "Rimini", "tempo": "40 min in auto" },
+      { "luogo": "Bologna Aeroporto", "tempo": "60 min in auto" }
+    ],
+    "apriMappa": "Apri in Google Maps"
+  },
+  "host": {
+    "titolo": "Il tuo Host",
+    "nome": "Lucea Collection",
+    "bio": "Siamo Lucea Collection, un team appassionato di ospitalita con base in Romagna. Curiamo ogni appartamento nei minimi dettagli per garantire un soggiorno autentico e confortevole. Siamo sempre disponibili per consigli, raccomandazioni locali e qualsiasi esigenza durante il tuo soggiorno.",
+    "badge": "Risposta rapida",
+    "stats": [
+      { "valore": "5.0", "etichetta": "Valutazione media" },
+      { "valore": "100%", "etichetta": "Tasso di risposta" },
+      { "valore": "< 1h", "etichetta": "Tempo di risposta" }
+    ]
+  },
+  "finalCta": {
+    "titolo": "Pronto per il tuo soggiorno a Cesena?",
+    "sottotitolo": "Controlla la disponibilita e prenota direttamente su Airbnb.",
+    "cta": "Prenota ora su Airbnb"
+  },
+  "footer": {
+    "copyright": "Garibaldina 75. Tutti i diritti riservati.",
+    "privacy": "Privacy Policy",
+    "termini": "Termini di Utilizzo",
+    "directory": "Directory RAB",
+    "contatti": "Contatti"
+  }
+}
