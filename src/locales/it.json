@@ -11,7 +11,7 @@
   "hero": {
     "badge": "Cesena Centro",
     "titolo": "Luminoso e accogliente nel cuore di Cesena",
-    "sottotitolo": "Un appartamento moderno e curato, a pochi passi da negozi, locali e le bellezze storiche della citta. Wifi veloce, cucina completa, self check-in.",
+    "sottotitolo": "Un appartamento moderno e curato, a pochi passi da negozi, locali e le bellezze storiche della citta. Wifi, cucina completa, self check-in.",
     "ctaPrimario": "Prenota su Airbnb",
     "ctaSecondario": "Scopri di piu",
     "stats": {
@@ -34,7 +34,8 @@
       { "icona": "heating", "testo": "Riscaldamento" },
       { "icona": "checkin", "testo": "Self check-in" },
       { "icona": "tv", "testo": "Smart TV" },
-      { "icona": "elevator", "testo": "Appartamento al piano terra accessibile su sedia a rotelle" }
+      { "icona": "elevator", "testo": "Appartamento al piano terra. 
+        Accessibile su sedia a rotelle" }
     ]
   },
   "esperienza": {
