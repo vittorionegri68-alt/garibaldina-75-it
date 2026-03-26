@@ -2,8 +2,8 @@ import { useEffect, useRef } from 'react';
 import { contactInfo } from '../config/contact_info';
 import t from '../locales/it.json';
 
-const LOCATION_IMG = 'https://images.unsplash.com/photo-1567789884554-0b844b597180?w=1200&q=80';
-const MAPS_URL = 'https://www.google.com/maps/search/?api=1&query=Corso+C.B.+Cavour+75+Cesena+FC';
+const LOCATION_IMG = '/garibaldina-75.png';
+const MAPS_URL = 'https://www.google.com/maps/search/?api=1&query=Corso+Garibaldi+75+Cesena+FC';
 
 export default function Location() {
   const ref = useRef(null);
