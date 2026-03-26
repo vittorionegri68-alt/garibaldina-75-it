@@ -2,9 +2,9 @@ import { useEffect, useRef } from 'react';
 import t from '../locales/it.json';
 
 const EXP_IMAGES = [
-  'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&q=80',
-  'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
-  'https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&q=80',
+  'https://images.unsplash.com/photo-1718024111530-b88cc1c9f108?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  'https://images.unsplash.com/photo-1589307717665-53ff418be9f5?q=80&w=1334&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  'https://plus.unsplash.com/premium_photo-1677048148083-99e9f8eb12a5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 ];
 
 const EXP_ICONS = ['🏰', '🍝', '🚗'];
