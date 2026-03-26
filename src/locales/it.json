@@ -61,7 +61,7 @@
     "steps": [
       { "numero": "01", "titolo": "Cerca le date", "testo": "Controlla la disponibilita su Airbnb e scegli le date del tuo soggiorno." },
       { "numero": "02", "titolo": "Prenota", "testo": "Prenota in pochi clic con pagamento sicuro tramite la piattaforma Airbnb." },
-      { "numero": "03", "titolo": "Ricevi il codice", "testo": "Prima dell arrivo ricevi tutto via messaggio tutte le istruzioni." },
+      { "numero": "03", "titolo": "Ricevi il codice", "testo": "Prima dell' arrivo riceverai un messaggio con tutte le istruzioni." },
       { "numero": "04", "titolo": "Goditi il soggiorno", "testo": "Entra in autonomia, a qualsiasi ora. L appartamento e pronto per te." }
     ]
   },
