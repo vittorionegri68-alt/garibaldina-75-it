@@ -27,14 +27,14 @@
     "galleriaLabel": "Galleria foto",
     "dotazioni": "Dotazioni principali",
     "amenities": [
-      { "icona": "wifi", "testo": "WiFi ad alta velocita" },
+      { "icona": "wifi", "testo": "WiFi" },
       { "icona": "kitchen", "testo": "Cucina completamente attrezzata" },
       { "icona": "washer", "testo": "Lavatrice" },
       { "icona": "ac", "testo": "Aria condizionata" },
       { "icona": "heating", "testo": "Riscaldamento" },
-      { "icona": "checkin", "testo": "Self check-in con serratura smart" },
+      { "icona": "checkin", "testo": "Self check-in" },
       { "icona": "tv", "testo": "Smart TV" },
-      { "icona": "elevator", "testo": "Ascensore" }
+      { "icona": "elevator", "testo": "Appartamento al piano terra accessibile su sedia a rotelle" }
     ]
   },
   "esperienza": {
