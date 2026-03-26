@@ -34,8 +34,7 @@
       { "icona": "heating", "testo": "Riscaldamento" },
       { "icona": "checkin", "testo": "Self check-in" },
       { "icona": "tv", "testo": "Smart TV" },
-      { "icona": "elevator", "testo": "Appartamento al piano terra. 
-        Accessibile su sedia a rotelle" }
+      { "icona": "elevator", "testo": "Appartamento al piano terra. \nAccessibile su sedia a rotelle" }
     ]
   },
   "esperienza": {
