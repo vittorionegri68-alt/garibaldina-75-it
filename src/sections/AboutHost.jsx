@@ -2,8 +2,6 @@ import { useEffect, useRef } from 'react';
 import { contactInfo } from '../config/contact_info';
 import t from '../locales/it.json';
 
-const HOST_IMG = 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80';
-
 export default function AboutHost() {
   const ref = useRef(null);
 
@@ -23,45 +21,8 @@ export default function AboutHost() {
       padding: '100px 24px',
     },
     inner: {
-      maxWidth: '1200px',
+      maxWidth: '800px',
       margin: '0 auto',
-    },
-    grid: {
-      display: 'grid',
-      gridTemplateColumns: '1fr 1fr',
-      gap: '80px',
-      alignItems: 'center',
-    },
-    imgWrap: {
-      position: 'relative',
-    },
-    img: {
-      width: '100%',
-      aspectRatio: '4/5',
-      objectFit: 'cover',
-      borderRadius: 'var(--radius-xl)',
-      boxShadow: 'var(--shadow-lg)',
-    },
-    badge: {
-      position: 'absolute',
-      bottom: '24px',
-      left: '24px',
-      background: '#FFFFFF',
-      borderRadius: 'var(--radius-md)',
-      padding: '12px 20px',
-      boxShadow: 'var(--shadow-md)',
-      display: 'flex',
-      alignItems: 'center',
-      gap: '8px',
-      fontWeight: 700,
-      fontSize: '0.875rem',
-      color: 'var(--color-dark)',
-    },
-    badgeDot: {
-      width: '8px',
-      height: '8px',
-      borderRadius: '50%',
-      background: 'var(--color-green)',
     },
     label: {
       fontSize: '0.78rem',
@@ -128,54 +89,40 @@ export default function AboutHost() {
   return (
     <section id="host" style={s.section} ref={ref}>
       <div style={s.inner}>
-        <div style={s.grid} className="host-grid">
-          <div className="reveal" style={s.imgWrap}>
-            <img src={HOST_IMG} alt="Lucea Collection Host" style={s.img} loading="lazy" />
-            <div style={s.badge}>
-              <span style={s.badgeDot} />
-              {t.host.badge}
-            </div>
+        <div className="reveal">
+          <div style={s.label}>{t.host.titolo}</div>
+          <h2 style={s.h2}>{t.host.nome}</h2>
+          <p style={s.bio}>{t.host.bio}</p>
+          <div style={s.statsRow}>
+            {t.host.stats.map((stat, i) => (
+              <div key={i} style={s.stat}>
+                <div style={s.statVal}>{stat.valore}</div>
+                <div style={s.statLabel}>{stat.etichetta}</div>
+              </div>
+            ))}
           </div>
-          <div className="reveal">
-            <div style={s.label}>{t.host.titolo}</div>
-            <h2 style={s.h2}>{t.host.nome}</h2>
-            <p style={s.bio}>{t.host.bio}</p>
-            <div style={s.statsRow}>
-              {t.host.stats.map((stat, i) => (
-                <div key={i} style={s.stat}>
-                  <div style={s.statVal}>{stat.valore}</div>
-                  <div style={s.statLabel}>{stat.etichetta}</div>
-                </div>
-              ))}
-            </div>
-            <div style={s.contactRow}>
-              <a
-                href={`mailto:${contactInfo.email}`}
-                style={s.contactBtn}
-                onMouseEnter={e => e.currentTarget.style.background = 'var(--color-surface)'}
-                onMouseLeave={e => e.currentTarget.style.background = 'var(--color-bg)'}
-              >
-                ✉️ {contactInfo.email}
-              </a>
-              <a
-                href={contactInfo.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={s.contactBtn}
-                onMouseEnter={e => e.currentTarget.style.background = 'var(--color-surface)'}
-                onMouseLeave={e => e.currentTarget.style.background = 'var(--color-bg)'}
-              >
-                📸 Instagram
-              </a>
-            </div>
+          <div style={s.contactRow}>
+            <a
+              href={`mailto:${contactInfo.email}`}
+              style={s.contactBtn}
+              onMouseEnter={e => e.currentTarget.style.background = 'var(--color-surface)'}
+              onMouseLeave={e => e.currentTarget.style.background = 'var(--color-bg)'}
+            >
+              ✉️ {contactInfo.email}
+            </a>
+            <a
+              href={contactInfo.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={s.contactBtn}
+              onMouseEnter={e => e.currentTarget.style.background = 'var(--color-surface)'}
+              onMouseLeave={e => e.currentTarget.style.background = 'var(--color-bg)'}
+            >
+              📸 Instagram
+            </a>
           </div>
         </div>
       </div>
-      <style>{`
-        @media (max-width: 768px) {
-          .host-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
-        }
-      `}</style>
     </section>
   );
 }
