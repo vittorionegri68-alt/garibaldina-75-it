@@ -7,6 +7,7 @@ import Experience from './sections/Experience';
 import HowItWorks from './sections/HowItWorks';
 import Testimonials from './sections/Testimonials';
 import Location from './sections/Location';
+import FAQ from './sections/FAQ';
 import AboutHost from './sections/AboutHost';
 import FinalCTA from './sections/FinalCTA';
 
@@ -21,6 +22,7 @@ export default function App() {
         <HowItWorks />
         <Testimonials />
         <Location />
+        <FAQ />
         <AboutHost />
         <FinalCTA />
       </main>
