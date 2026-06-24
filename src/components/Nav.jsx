@@ -17,6 +17,7 @@ export default function Nav() {
     { label: t.nav.esperienza, href: '#esperienza' },
     { label: t.nav.comeFunziona, href: '#come-funziona' },
     { label: t.nav.recensioni, href: '#recensioni' },
+    { label: t.nav.faq, href: '#faq' },
     { label: t.nav.posizione, href: '#posizione' },
   ];
 
