@@ -14,6 +14,12 @@ const REVIEWS = [
     provenienza: 'Cesena, Italia',
     stelle: 5,
   },
+  {
+    testo: `Sono andato a Cesena su consiglio di un amico. E sono felice di averlo fatto. Una delle "città italiane di medie dimensioni" più pulite, tranquille e rilassate in cui sia mai stato (e ne ho visitate molte). C'è molto da vedere in città e nelle immediate vicinanze (Rimini, per esempio). La sistemazione di Annadaltri era molto confortevole. Aveva tutto ciò di cui avevo bisogno e ho apprezzato la posizione per gli spostamenti. Il piano terra inizialmente era un po' preoccupante: i pedoni che passavano (ma non possono vedere dentro). La mia preoccupazione era il "sonno", ma la camera da letto è ben isolata dai rumori e dalla luce (assicurati di abbassare le tende esterne della finestra). C'è un bar dall'altra parte della strada, ed è piuttosto vivace... in estate la gente si siede all'aperto... ma, con la porta della camera da letto chiusa, il mio sonno non è stato disturbato. Ho un sonno molto leggero! L'aria condizionata funziona bene, il bagno è spazioso e pulito e il Wi-Fi è veloce. Posto perfetto per una o due persone. Consigliatissimo. L'appartamento e la città di Cesena.`,
+    nome: 'Bjorn',
+    provenienza: '',
+    stelle: 5,
+  },
 ];
 
 function Stars({ n }) {
@@ -154,7 +160,7 @@ export default function Testimonials() {
             <div style={s.ratingNum}>5.0</div>
             <div style={s.ratingInfo}>
               <Stars n={5} />
-              <span style={s.basedOn}>{t.recensioni.sottotitolo} 5.0 {t.recensioni.di} 5 &middot; 2 {t.recensioni.basataSu}</span>
+              <span style={s.basedOn}>{t.recensioni.sottotitolo} 5.0 {t.recensioni.di} 5 &middot; 3 {t.recensioni.basataSu}</span>
             </div>
           </div>
         </div>
