@@ -88,6 +88,8 @@ export default function Footer() {
         <div style={style.bottom}>
           <span>&copy; {new Date().getFullYear()} {t.footer.copyright}</span>
           <div style={style.switcher}>
+            <a href="/privacy.html" style={{ color: 'rgba(255,255,255,0.4)', fontWeight: 500 }}>{t.footer.privacy}</a>
+            <span>|</span>
             <span style={{ fontWeight: 700, color: 'var(--color-accent)' }}>IT</span>
             <span>|</span>
             <a href={config.langEN} style={{ color: 'rgba(255,255,255,0.4)', fontWeight: 500 }}>EN</a>

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://Garibaldina-75.vercel.app/sitemap.xml
+Sitemap: https://garibaldina-75.romagna-affitti-brevi.it/sitemap.xml
