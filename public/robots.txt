@@ -1,4 +1,27 @@
+# robots.txt per Garibaldina 75
 User-agent: *
+Allow: /
+
+# Crawler AI, ammessi esplicitamente
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
 Allow: /
 
 Sitemap: https://garibaldina-75.romagna-affitti-brevi.it/sitemap.xml

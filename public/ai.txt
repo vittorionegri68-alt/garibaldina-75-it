@@ -1,0 +1,31 @@
+# AI Agent Permissions, Garibaldina 75
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+AI-Training: allowed
+AI-Indexing: allowed
+AI-Citation: allowed
+
+Contact: luceacollection@gmail.com
